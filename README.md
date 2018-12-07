@@ -4,7 +4,7 @@
 # CVE-2018-19933
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19933
 
-# PoC
+# Proof of Concept
 To exploit vulnerability, Bolt CMS <3.6.2 allows XSS via text input click preview button as demonstrated by the Title field of a Configured and New Entry.
 
  ```
@@ -25,11 +25,11 @@ content_edit%5B_token%5D=jMmm41dJQXpXx3gwE_VQkA60fdsNo6DERJClPVkYh7U&editreferre
 
  ```
  
- PoC (Video)
+ # Proof of Concept (Video)
  
 [![PoC_Video](http://img.youtube.com/vi/3eTPyIpjCJg/0.jpg)](http://www.youtube.com/watch?v=3eTPyIpjCJg "")
 
-Screenshots
+# Screenshots
  
 ![PoC_1](https://raw.githubusercontent.com/rdincel1/Bolt-CMS-3.6.2---Cross-Site-Scripting/master/PoC_1.PNG)
 ![Request](https://raw.githubusercontent.com/rdincel1/Bolt-CMS-3.6.2---Cross-Site-Scripting/master/burp.PNG)
